@@ -69,8 +69,17 @@ function App() {
             </select>
           </div>
           <div>
-            <label htmlFor="name">Description:</label>
-            <textarea id="name" name="name" required />
+            <label htmlFor="name">Reason:</label>
+            <textarea
+              id="name"
+              name="name"
+              placeholder="I am very much proficient in react and its associated libraries.
+
+I can combine React and Tailwindcss to ensure robust and pixel-perfect design.
+
+Furthermore, I am used to OpenAPI and @tanstack React query to ensure suitable state management and classified API call."
+              required
+            />
           </div>
           <button type="submit">Submit</button>
         </form>

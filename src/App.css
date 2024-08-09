@@ -46,16 +46,20 @@
 }
 
 .form {
-  width: 100%;
+  width: 400px;
   display: flex;
   flex-direction: column;
   justify-content:flex-start;
-  gap: 10px;
+  gap: 20px;
 }
 
 .form div {
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
 
+.form textarea {
+  width: 60%;
+  height: 200px;
 }
